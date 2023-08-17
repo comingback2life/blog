@@ -22,7 +22,8 @@ module.exports = {
           code: "rgb(var(--color-text-code) / <alpha-value>)",
           link: "rgb(var(--color-text-link) / <alpha-value>)",
           selection: "rgb(var(--color-text-selection) / <alpha-value>)",
-          headerlink: "rgb(var(--color-text-headerlink) / <alpha-value>)"
+          headerlink: "rgb(var(--color-text-headerlink) / <alpha-value>)",
+          blogTitleLinks: "rgb(var(--color-text-blogTitleLinks) / <alpha-value>)"
         },
         bg: {
           body: "rgb(var(--color-bg-body) / <alpha-value>)",

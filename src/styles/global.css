@@ -28,6 +28,9 @@
 
         /** Tailwind sky-400 #38bdf8*/
         --color-text-headerlink: 56 189 248;
+
+        /** *Tailwind blue-500 */
+        --color-text-blogTitleLinks: 59 130 246;
         /* black */
         --color-text-code: 0 0 0;
         /* black */
@@ -49,7 +52,7 @@
     .theme-sleek.dark {
         /* Tailwind yellow-400 #facc15 */
         --color-primary-main: 250 204 21;
-
+        --color-text-blogTitleLinks: 250 204 21;
         /* Tailwind stone-300 #d6d3d1 */
         --color-text-body: 214 211 209;
         /* white */
@@ -119,12 +122,13 @@
         background-size: 100% 1.5px;
         background-position: 0 100%;
         background-image:
-            linear-gradient(to right, theme('colors.text.link'), theme('colors.text.link'));
+            linear-gradient(to right, theme('colors.text.headerlink'), theme('colors.text.headerlink'));
     }
 
     a:not(.unset):hover {
-        color: theme('colors.text.link');
+        color: theme('colors.text.headerlink');
     }
+   
 
     code:not(pre code):not(.unset) {
         background-color: theme('colors.bg.code');
