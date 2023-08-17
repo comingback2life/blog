@@ -1,3 +1,7 @@
-## Blog
+# Blog
 
-Samip's official blog repository
+**Samip's Blog** : My blog page
+
+## Theme
+
+MIT © [Dinesh Pandiyan](https://github.com/flexdinesh)
