@@ -46,6 +46,8 @@ But, **T** is also an expert in Java.
 
 Now, which one of the above profile do you think will have the better chances ?
 
-Probably **T**. It depends on the organisational needs.
+Probably **T**. Again, it depends on the organisational needs.
 
 A T-Shaped engineer is someone like **Developer T** who has a wide range of knowledge but is very strong in one particular thing like Developer T who has a wide set of skills but is extremely skilled in Java.
+
+I aspire to become one. Maybe someday, I will become one.
