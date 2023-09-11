@@ -29,7 +29,7 @@ Here are some key reasons why testing is required in web development:
 
 RTL is a testing library for React that provides a user-friendly API for interacting with React components and validating their behavior. Among the RTL queries available, `getByRole` is a commonly used query for locating elements based on their ARIA (Accessible Rich Internet Applications) roles.
 
-### Basic Usage of `getByRole`
+### Basic Usage of getByRole
 
 Consider the following React component called `Application`, which represents a job application form:
 
@@ -78,7 +78,7 @@ export default Application;
 
 In this example, we have a form with various elements, including text inputs, a textarea, a select menu, a checkbox, and a button. We want to use `getByRole` to verify the presence of these elements during testing.
 
-### `getByRole` Options
+### getByRole Options
 
 `getByRole` can take additional options to make element selection more specific. Here are some commonly used options:
 
@@ -100,7 +100,7 @@ In this example, we have a form with various elements, including text inputs, a 
 
 3. **Other Options**: There are various other options you can use with `getByRole`, such as `hidden`, `selected`, `checked`, and `pressed`, depending on the element type and context.
 
-## Example Test Using `getByRole`
+## Example Test Using getByRole
 
 Let's write a test for the `Application` component using `getByRole`:
 
